@@ -1,5 +1,103 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+/* influencer product----start */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
 }
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    align-content: space-between;
+    column-gap: 382px;
+
+
+
+
+}
+
+.nav p {
+
+    display: inline-flex;
+    margin: 5px;
+    margin-top: 33px;
+
+}
+
+.tag h2 {
+    font-size: 24px;
+}
+
+/* influencer product----end */
+
+/* become a influencer start */
+
+.influencer-journey {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    column-gap: 126px;
+
+}
+
+.main-cam {
+    padding-top: 20px;
+    background-image: url(images/Circle\ design.svg);
+    height: 360px;
+    background-size: 402px;
+    background-repeat: no-repeat;
+
+}
+
+.influencer-tags a {
+    text-decoration: none;
+    border: 1px solid #E02C6D;
+    background-color: #E02C6D;
+    color: aliceblue;
+    border-radius: 29px;
+    Font-size: 16px;
+    Line-height: 24px;
+}
+
+.influencer-tags h1 {
+    font-size: 52px;
+    Weight: 700;
+    Line height: 70px;
+
+}
+
+
+
+
+/* become a influencer end */
+
+/* companies start */
+
+.company {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 2px;
+    width: 1110px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
+
+
+
+
+
+
+
+
+
+/* companies start */
