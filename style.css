@@ -89,12 +89,15 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     row-gap: 2px;
-    width: 1110px;
-    height: 110px;
+    width: 81%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     padding: 120px;
+    margin-left: 41px;
+
 }
+
 
 
 
@@ -115,11 +118,12 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    justify-items: center;
+    justify-items: stretch;
     width: 1164px;
     Height: 1662px;
-    margin-left: 90px;
+    margin-left: 146px;
     column-gap: 43px;
+
 
 
 }
@@ -129,7 +133,7 @@ body {
     padding-left: 5%;
     padding-top: 5%;
     width: 90%;
-    margin-right: 9%;
+    margin-right: -68%;
     border-radius: 5px;
     background-color: white;
 
@@ -147,7 +151,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 110px;
-    margin-left: 81px;
+    margin-left: 152px;
 
 
 }
